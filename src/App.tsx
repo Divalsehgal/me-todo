@@ -5,6 +5,7 @@ import PrivateRoute from "./privateRoute";
 import Login from "./Login";
 import Dashboard from "./dashboard";
 import TodoContextProvider from "./todoProvider";
+import NotFound from "./notFound";
 
 const App: React.FC = () => {
   return (
@@ -24,7 +25,7 @@ const App: React.FC = () => {
                   </PrivateRoute>
                 }
               />
-              <Route path="*" element={"404"} />
+              <Route path="*" element={<NotFound/>} />
             </Routes>
           </Suspense>
         </AuthProvider>
