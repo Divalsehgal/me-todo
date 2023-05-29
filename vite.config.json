@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    ["@vitejs/plugin-react"]
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
