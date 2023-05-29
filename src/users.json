@@ -1,0 +1,40 @@
+[
+  {
+    "username": "user1",
+    "password": "password1",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "todos": [
+      {
+        "id": 1,
+        "title": "Todo 1",
+        "subTodos": [
+          { "id": 1, "title": "Sub Todo 1" },
+          { "id": 2, "title": "Sub Todo 2" },
+          { "id": 3, "title": "Sub Todo 3" }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Todo 2",
+        "subTodos": [
+          { "id": 4, "title": "Sub Todo 4" },
+          { "id": 5, "title": "Sub Todo 5" },
+          { "id": 6, "title": "Sub Todo 6" }
+        ]
+      },
+      { "id": 3, "title": "Todo 3" ,"subTodos":[]}
+    ]
+  },
+  {
+    "username": "user2",
+    "password": "password2",
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "todos": [
+      { "id": 4, "title": "Todo 4" },
+      { "id": 5, "title": "Todo 5" },
+      { "id": 6, "title": "Todo 6" }
+    ]
+  }
+]
